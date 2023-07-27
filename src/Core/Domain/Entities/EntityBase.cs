@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class EntityBase<T>
+    public class EntityBase
     {
-        public T Id { get; set; } = default!;
+        public int Id { get; set; } = default!;
 
         public override string ToString()
         {
